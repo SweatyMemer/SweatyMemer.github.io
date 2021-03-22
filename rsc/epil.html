@@ -1,0 +1,32 @@
+<head>
+    <title>
+        flashylights
+    </title>
+
+</head>
+
+<body>
+    <p>
+        hello
+    </p>
+    
+    <div id="epil" style="position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; background-color: green;">
+        
+    </div>
+    <script>
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+        
+        function epilepsy()
+        {
+            document.getElementById('epil').style.backgroundColor = getRandomColor();
+        }
+        setInterval(epilepsy,100);
+    </script>
+</body>
