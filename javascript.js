@@ -9,5 +9,8 @@ function getRandomColor() {
 
 function epilepsy()
 {
+    for (i=1;i<1000;i++){
     document.getElementById('epil').style.backgroundColor = getRandomColor();
+    }
 }
+
