@@ -1,6 +1,6 @@
 function epilepsy()
 {
-    Boolean i = true;
+    var i = true;
     while (i == true) {
         document.getElementById('epil').style.backgroundColor = 'white';
         document.getElementById('epil').style.backgroundColor = 'black';
