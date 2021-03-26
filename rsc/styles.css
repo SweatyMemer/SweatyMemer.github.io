@@ -1,18 +1,13 @@
-.blackBox
+.br
 {
-    background-color: black;
-    z-index: 1;
-    position: absolute;
-    left:0px;
-    top:150px
+    display: block;
+    content: "";
+    margin-top: 150px;
 }
 
-.banner
+html
 {
-    background-color: black;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100px;
+    background-image:url("grass.jpg");
+    background-repeat:repeat;
+    object-fit: fill;
 }
