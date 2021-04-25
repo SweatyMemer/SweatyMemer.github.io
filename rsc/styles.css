@@ -2,12 +2,12 @@
 {
     display: block;
     content: "";
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 html
 {
-    background-image:url("grass.jpg");
+    background-image:url("Compressed_and_resized_grass.jpg");
     background-repeat:repeat;
     object-fit: fill;
 }
